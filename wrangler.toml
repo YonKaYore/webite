@@ -1,5 +1,6 @@
-name = 'somethiung'
+name = 'webite'
 compatibility_date = "2025-04-01"
 
 [assets]
+
 directory = "./"
