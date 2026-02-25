@@ -1,8 +1,14 @@
-function calculateAge(date) {
-    const today = new Date();
-    const appearance = new Date(date);
-    let age = today.getFullYear() - appearance.getFullYear();
-    const m = today.getMonth() - appearance.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < appearance.getDate())) age--;
+function calculateAge(birthYear, birthMonth, birthDay) {
+    var today = new Date();
+    var todayYear = today.getFullYear ? today.getFullYear() : today.getYear() + 1900;
+    var todayMonth = today.getMonth();
+    var todayDay = today.getDate();
+
+    var age = todayYear - birthYear;
+
+    if (todayMonth < birthMonth - 1 || (todayMonth === birthMonth - 1 && todayDay < birthDay)) {
+        age--;
+    }
+
     return age;
 }
