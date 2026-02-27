@@ -12,15 +12,24 @@
         <script>document.getElementById('age').innerText = calculateAge(2009, 11, 17);</script>
         <hr>
         <h2>Links</h2>
-        <input type="button" value="Twitter" onclick="document.location='https://x.com/CopycatMeows'">
-        <input type="button" value="Steam" onclick="document.location='https://steamcommunity.com/id/yonkagorthesequel'">
-        <input type="button" value="Pronouns page" onclick="document.location='https://en.pronouns.page/@yonkayore'">
-        <input type="button" value="My friend's page" onclick="document.location='http://julimiro.eu'">
+        <table width="100%">
+            <tr>
+                <td>
+                    <input class="btn" type="button" value="Twitter" onclick="document.location='https://x.com/CopycatMeows'">
+                    <input class="btn" type="button" value="Steam" onclick="document.location='https://steamcommunity.com/id/yonkagorthesequel'">
+                    <input class="btn" type="button" value="Pronouns page" onclick="document.location='https://en.pronouns.page/@yonkayore'">
+                    <input class="btn" type="button" value="My friend's page" onclick="document.location='http://julimiro.eu'">
+                </td>
+                <td align="right">
+                    <input class="btn" type="button" id="thisfuckingbuttondude" value="Dark / Light theme" onclick="toggleTheme();">
+                </td>
+            </tr>
+        </table>
     </body>
     <foot>
         <hr>
         <h2>Fun stuff!</h2>
         <script src="js/buttons.js"></script>
-        <input type="button" value="Make it blue!" onclick="changeStyle();">
+        <input class="btn" type="button" value="Make it blue!" onclick="changeStyle();">
     </foot>
 </html>
