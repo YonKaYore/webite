@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>YonKaYore's Page</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <h1>Hello! I'm Yon!</h1>
@@ -10,12 +11,16 @@
         <script src="js/age.js"></script>
         <script>document.getElementById('age').innerText = calculateAge(2009, 11, 17);</script>
         <hr>
+        <h2>Links</h2>
+        <input type="button" value="Twitter" onclick="document.location='https://x.com/CopycatMeows'">
+        <input type="button" value="Steam" onclick="document.location='https://steamcommunity.com/id/yonkagorthesequel'">
+        <input type="button" value="Pronouns page" onclick="document.location='https://en.pronouns.page/@yonkayore'">
+        <input type="button" value="My friend's page" onclick="document.location='http://julimiro.eu'">
     </body>
     <foot>
-        <h2>Links</h2>
-        <a href="https://x.com/CopycatMeows">Twitter</a> |
-        <a href="https://steamcommunity.com/id/yonkagorthesequel/">Steam</a> |
-        <a href="https://en.pronouns.page/@yonkayore">Pronouns page</a> |
-        <a href="http://julimiro.eu">My awesome friend's page</a>
+        <hr>
+        <h2>Fun stuff!</h2>
+        <script src="js/buttons.js"></script>
+        <input type="button" value="Make it blue!" onclick="changeStyle();">
     </foot>
 </html>
