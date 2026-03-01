@@ -8,7 +8,7 @@ function changeStyle() {
     }
 }
 
-var darkMode = false;
+var darkMode = false;   // Should dark mode be enabled by default??
 
 function toggleTheme() {
     var hrs = document.getElementsByTagName('hr');
