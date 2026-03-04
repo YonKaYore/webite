@@ -1,10 +1,8 @@
 @font-face {
     font-family: 'JetBrainsMono';
     src: url('../fonts/JetBrainsMono-Regular.eot');
-}
-@font-face {
-    font-family: 'JetBrainsMono';
-    src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    src: url('../fonts/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/JetBrainsMono-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 body {
@@ -18,12 +16,10 @@ body {
     font-family: 'JetBrainsMono';
     font-size: 14px;
     font-weight: bold;
-    width: 150px;
+    width: auto;
     height: 40px;
     border: 2px solid black;
     cursor: pointer;
+    margin: 0;
 }
 
-#thisfuckingbuttondude {
-    width: 200px;
-}
